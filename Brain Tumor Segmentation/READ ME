@@ -1,8 +1,0 @@
-Dataset For Skull Stripping : https://www.kaggle.com/code/mojtabanafez/nfbs-dataset-skull-
-stripped-segmentation
-Dataset For Brain Tumor : https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
-First Train a unet for Skull Stripping
-Then Train a anther unet for Brain Tumor. This Unet is Custom For Brain tumor Unet with
-Resnet50.
-After that in the prediction time use both Unet in a testing image first unet it will remove the skull
-then anather unet it will give me the tumor area.
